@@ -70,7 +70,6 @@ class OvertimeFeeCalculator(tk.Frame):
         
         
         # Display the overtime fee
-        #ekrana yazdırılması
         self.result_label.config(text=" Overtime Pay: €{:.2f}".format(overtime_fee),font='Tahoma 14 bold')
         self.result_label.pack(pady=21)
         self.result_label2.config(text=" The Total Fee He will Receive: €{:.2f}".format(total),font='Tahoma 14 bold')
